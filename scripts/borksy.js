@@ -1,6 +1,4 @@
-<!--##########################################-->
-<!-- BORKSY HACKS -->
-<script type="text/javascript" id="borksyHacks">
+
 //borksy uses dist versions of hacks from the bitsy hacks repo now
 
 /**
@@ -903,9 +901,3 @@ Object.defineProperty(exports, '__esModule', { value: true });
 }(this.hacks.bitsymuse = this.hacks.bitsymuse || {}, window));
 
 
-
-</script>
-
-<script type="text/javascript" id="borksyAdditionalJS">
-
-</script>
