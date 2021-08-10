@@ -1,6 +1,3 @@
-<!--##########################################-->
-<!-- GAME DATA -->
-<script type="text/bitsyGameData" id="exportedGameData">
 
 {rbw}BetaLevelQuest{rbw}
 
@@ -1433,5 +1430,3 @@ NAME exit narration 1
 
 VAR a
 42
-
-</script>
