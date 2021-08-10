@@ -1,6 +1,4 @@
-<!--##########################################-->
-<!-- BITSY SCRIPTS -->
-<script>
+
 function startExportedGame() {
 	attachCanvas( document.getElementById("game") );
 	load_game( document.getElementById("exportedGameData").text.slice(1) );
@@ -8757,5 +8755,5 @@ CHAR 9835
 011011
 011000
 000000
-</script>
+
 
