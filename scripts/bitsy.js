@@ -3,9 +3,8 @@ function startExportedGame() {
 	attachCanvas( document.getElementById("game") );
 	load_game( document.getElementById("exportedGameData").text.slice(1) );
 }
-</script>
 
-<script>
+
 //hex-to-rgb method borrowed from stack overflow
 function hexToRgb(hex) {
 	// Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
@@ -182,9 +181,8 @@ function rgbToHsl(r, g, b){
 
     return [h, s, l];
 }
-</script>
 
-<script>
+
 var TransitionManager = function() {
 	var transitionStart = null;
 	var transitionEnd = null;
