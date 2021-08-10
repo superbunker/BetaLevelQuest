@@ -1,7 +1,12 @@
 ## Welcome to BetaLevelQuest
 
-current main verison
+
+
 https://superbunker.github.io/BetaLevelQuest/
+
+
+last verison: 00113
+https://superbunker.github.io/BetaLevelQuest/blq_00113
 
 
 ## Bitsy Resources
