@@ -649,9 +649,8 @@ var TransitionInfo = function(image, palette, playerX, playerY) {
 	this.PlayerTilePos = { x: playerX, y: playerY };
 	this.PlayerCenter = { x: Math.floor((playerX * tilesize) + (tilesize / 2)), y: Math.floor((playerY * tilesize) + (tilesize / 2)) };
 };
-</script>
 
-<script>
+
 /*
 TODO:
 - can I simplify this more now that I've removed the external resources stuff?
@@ -871,9 +870,8 @@ function Font(fontData) {
 }
 
 } // FontManager
-</script>
 
-<script>
+
 function Script() {
 
 this.CreateInterpreter = function() {
