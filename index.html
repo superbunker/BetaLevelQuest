@@ -1,19 +1,12 @@
 <!DOCTYPE HTML>
 <html>
-
-<!-- HEADER -->
 <head>
-
 <meta charset="UTF-8">
 
-<title>{rbw}BetaLevelQuest{rbw}</title>
+<title>BetaLevelQuest</title>
 
-{% include_relative scripts/gamedata.txt %}
-	
 
-<script type="text/bitsyGameData" id="exportedGameData">
-{% include_relative scripts/gamedata.txt %}
-</script>
+<script type="text/bitsyGameData" id="exportedGameData" src="gamedata/font.txt"></script>
 
 <!-- BITSY SCRIPTS -->
 <script src="scripts/bitsy.js"></script>
@@ -23,6 +16,8 @@
 
 <!-- BORKSY HACKS -->
 <script src="scripts/borksy.js"></script>
+
+
 
 <!-- GAME DATA -->
 <!-- <script type="text/bitsyGameData" id="exportedGameData" src="scripts/game.txt"></script>-->
@@ -62,7 +57,7 @@ body {
 
 </head>
 <body onload='startExportedGame()'>
-test: 1435
+test: 1441
 	<!-- GAME CANVAS -->
 	<canvas id='game'></canvas>
 </body>
