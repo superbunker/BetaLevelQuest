@@ -39,20 +39,22 @@ var hackOptions = {
 	// Note: you can add <audio> tags to the html manually if you prefer
 	audio: {
 		// Note: the entries below are examples that should be removed and replaced with your own audio files
-		'example song ID': { src: './example song filepath.mp3', loop: true },
-		'example sfx ID': { src: './example sfx filepath.mp3', volume: 0.5 },
-		'example with multiple formats': { src: ['./preferred.mp3', './fallback.ogg'] },
+		'full house': { src: 'assets/parkinglot_m.mp3', loop: true },
+		'side alley': { src: 'assets/ckplaza_m.mp3', loop: true },
+		'beta alley': { src: 'assets/alley_indus.mp3', loop: true },
+		'stairs': { src: 'assets/stairs_m.mp3', loop: true },
+		'entry': { src: 'assets/flutterfans.mp3', loop: true },
 	},
 	// Put entries in this list for every room ID or name that will change the music
 	// If the player moves between rooms with the same audio ID, the music keeps playing seamlessly.
 	// Undefined rooms will keep playing whatever music they were last playing
 	musicByRoom: {
 		// Note: the entries below are examples that should be removed and replaced with your own room -> audio id mappings
-		0: 'example song ID',
-		1: 'S', // This room is silent - it will stop music when you enter (see `silenceId` below)
-		2: 'another song ID',
-		h: 'a song ID for a room with a non-numeric ID',
-		'my room': 'a song ID for a room with a user-defined name',
+		0: 'full house',
+		5: 'side alley',
+		'beta alley': 'beta alley',
+		'stairs': 'stairs',
+		'entry': 'entry',
 	},
 	silenceId: 'S', // Use this song ID to make a room fall silent.
 	resume: false, // If true, songs will pause/resume on change; otherwise, they'll stop/play (doesn't affect sound effects)
