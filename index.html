@@ -8,33 +8,29 @@
 
 <title>{rbw}BetaLevelQuest{rbw}</title>
 
+	
+<script type="text/bitsyGameData" id="exportedGameData">
+{% include_relative scripts/gamedata.txt %}
+</script>
 
 <!-- BITSY SCRIPTS -->
 <script src="scripts/bitsy.js"></script>
 
-
 <!-- DEFAULT FONT -->
 <script type="text/bitsyFontData" id="ascii_small" src="scripts/font.txt"></script>
-
-
-
-<!-- GAME DATA -->
-<!-- <script type="text/bitsyGameData" id="exportedGameData" src="scripts/game.txt"></script>-->
-<script type="text/bitsyGameData" id="exportedGameData">
-	IMPORT scripts/gamedata.txt
-</script>
-	
 
 <!-- BORKSY HACKS -->
 <script src="scripts/borksy.js"></script>
 
-
+<!-- GAME DATA -->
+<!-- <script type="text/bitsyGameData" id="exportedGameData" src="scripts/game.txt"></script>-->
+<!-- <script type="text/bitsyGameData" id="exportedGameData">
+	IMPORT scripts/gamedata.txt
+</script> -->
+	
 <!-- EXTERNAL GAME DATA HACK -->
 <!-- <script src="scripts/extgame.js"></script> -->
 
-<script type="text/bitsyGameData" id="exportedGameData">
-{% include_relative scripts/gamedata.txt %}
-</script>
 
 	
 <!-- CONTAINER PAGE STYLES -->
@@ -64,7 +60,7 @@ body {
 
 </head>
 <body onload='startExportedGame()'>
-test: 1429
+test: 1432
 	<!-- GAME CANVAS -->
 	<canvas id='game'></canvas>
 </body>
