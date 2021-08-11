@@ -417,11 +417,11 @@ var hackOptions = {
 
 audio: {
 	// Note: the entries below are examples that should be removed and replaced with your own audio files
-	'full house': { src: '/assets/parkinglot_m.mp3', loop: true },
-	'side alley': { src: '/assets/ckplaza_m.mp3', loop: true },
-	'beta alley': { src: '/assets/alley_indus.mp3', loop: true },
-	'stairs': { src: '/assets/stairs_m.mp3', loop: true },
-	'entry': { src: '/assets/flutterfans.mp3', loop: true },
+	'full house': { src: '../assets/parkinglot_m.mp3', loop: true },
+	'side alley': { src: '../assets/ckplaza_m.mp3', loop: true },
+	'beta alley': { src: '../assets/alley_indus.mp3', loop: true },
+	'stairs': { src: '../assets/stairs_m.mp3', loop: true },
+	'entry': { src: '../assets/flutterfans.mp3', loop: true },
 },
 	
 // Put entries in this list for every room ID or name that will 
